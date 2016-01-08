@@ -1,5 +1,3 @@
-import java.util.Comparator;
-
 /**
  * Created by yubo on 12/10/15.
  */
@@ -97,13 +95,6 @@ public class Quick {
 
         // shuffle
         StdRandom.shuffle(a);
-
-//        // display results again using select
-//        StdOut.println();
-//        for (int i = 0; i < a.length; i++) {
-//            String ith = (String) Quick.select(a, i);
-//            StdOut.println(ith);
-//        }
     }
 
 
