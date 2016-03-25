@@ -26,5 +26,14 @@ public class LargestSubarraySum {
         Integer[] a =  {-2, -3, 4, -1, -2, 1, 5, -3};
         int max = LargestSubarraySum.maxSubArraySum(a);
         System.out.println("Max subarray sum is : " + max);
+
+        ObjValue ov = new ObjValue();
+        int l = ov.value = 3;
+
+        System.out.printf("Value si " + l);
+    }
+
+    private static class ObjValue {
+        public int value = 0;
     }
 }
