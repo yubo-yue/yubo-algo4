@@ -6,7 +6,6 @@ package dynamicplan;
  *
  */
 public class LCS {
-
 	public static int lcs(char[] a, char[] b) {
 		int [][] L = new int[a.length + 1][b.length + 1];
 		
@@ -25,7 +24,7 @@ public class LCS {
 					L[i][j] = L[i - 1][j - 1] + 1;
 				}
 				else {
-					L[i][j] = max(L[i - 1][j], L[i][j - 1]);
+					L[i][j] = Math.max(L[i - 1][j], L[i][j - 1]);
 				}
 			}
 		}
@@ -44,15 +43,9 @@ public class LCS {
 				i --;
 		}
 		
-		System.out.println("LCS is " + new String(str));
-		
 		return L[a.length][b.length];
 	}
-	
-	public static int max(int a, int b) {
-		return (a > b) ? a : b;
-	}
-	
+
 	public static void main(String[] args) {
 		String s1 = "AGGTAB";
 		String s2 = "GXTXAYB";
