@@ -1,4 +1,5 @@
 .idea/
 *.iml
 target/
+gen/
 jaxb-ri-20090206/
