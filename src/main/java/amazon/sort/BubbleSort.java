@@ -1,5 +1,7 @@
 package amazon.sort;
 
+import yubo.algo.common.StdOut;
+
 /**
  * Created by yubo on 11/27/15.
  */
@@ -12,7 +14,6 @@ public class BubbleSort {
     }
 
     public static void sort(int[] arr) {
-        int l = 1;
         boolean skipRest = false;
         for (int i = 0; i < arr.length - 1; i++) {
             if (skipRest) break;
@@ -25,19 +26,12 @@ public class BubbleSort {
         }
     }
 
-    public static void printArr(int[] arr) {
-        for (int a : arr) {
-            System.out.print(a + " ");
-        }
-        System.out.println("");
-    }
-
     public static void main(String[] args) {
-        int arr[] = {5, 1, 4, 2, 8};
-
+        int arr[] = {5, 1, 4, 2, 8, 33, 27, 6, -11, 90, 9, 3};
+        StdOut.print(arr);
+        StdOut.println();
         sort(arr);
 
-        printArr(arr);
-
+        StdOut.print(arr);
     }
 }
