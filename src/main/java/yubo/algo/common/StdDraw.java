@@ -236,7 +236,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
         setYScale(DEFAULT_YMIN, DEFAULT_YMAX);
     }
 
-    private static void setXScale() {
+    public static void setXScale() {
         setXScale(DEFAULT_XMIN, DEFAULT_XMAX);
 
     }
@@ -246,7 +246,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
         setYScale();
     }
 
-    private static void setXScale(double min, double max) {
+    public static void setXScale(double min, double max) {
         double size = max - min;
         if (size == 0.0) throw new IllegalArgumentException("the min and max are the same");
         synchronized (mouseLock) {
