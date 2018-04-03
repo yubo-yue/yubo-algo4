@@ -11,3 +11,6 @@
 * Java Generics FAQ http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html
 * Grep code easily http://grepcode.com/file/repo1.maven.org/maven2/org.springframework/spring-web/4.2.0.RELEASE/org/springframework/web/WebApplicationInitializer.java#WebApplicationInitializer
 * Regarding Random Generator, see http://www.honeylocust.com/RngPack/ for an industrial strength random number generator in Java.
+* Leet code ?
+* BookShadow http://bookshadow.com/leetcode/
+ 
