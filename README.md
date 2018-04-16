@@ -5,6 +5,13 @@
 * CMD + ALT + T Surround with ...
 * CTR + T Refactor
 
+## Overview
+This project is used to do practice and experiment during reading a few books. Which includes
+but not limited to below ones
+
+* Modern Java Recipe
+* Algorithm 4
+* TBD
 
 ## References
 * Codes for Java Algorithms 4 can be found (here) https://algs4.cs.princeton.edu/code/.
