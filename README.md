@@ -13,6 +13,10 @@ but not limited to below ones
 * Algorithm 4
 * TBD
 
+### CompletableFuture in Java 8
+Go to see this article http://kennethjorgensen.com/blog/2016/introduction-to-completablefutures to start up.
+
+
 ## References
 * Codes for Java Algorithms 4 can be found (here) https://algs4.cs.princeton.edu/code/.
 * Java Generics FAQ http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html
